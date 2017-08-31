@@ -1,0 +1,18 @@
+{
+  "name": "pello",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node index.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "archiver": "^2.0.3",
+    "react": "16.0.0-alpha.6"
+  },
+  "devDependencies": {
+    "babel-jest": "19.0.0",
+    "jest": "19.0.2",
+    "react-test-renderer": "16.0.0-alpha.6"
+  }
+}

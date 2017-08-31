@@ -1,0 +1,1945 @@
+@@ -520570,17 +520570,17 @@
+ m.OS?20:
+-J
++Y
+ .status_
+@@ -521215,17 +521215,17 @@
+ =t(451),
+-A
++C
+ =babelHe
+@@ -521255,17 +521255,17 @@
+ ault(R),
+-C
++A
+ =t(454),
+@@ -521301,17 +521301,17 @@
+ Default(
+-C
++A
+ ),V=t(45
+@@ -521357,18 +521357,18 @@
+ (V),
+-x
++F
+ =t(456),
+-F
++x
+ =bab
+@@ -521399,17 +521399,17 @@
+ Default(
+-x
++F
+ ),B=t(45
+@@ -521457,17 +521457,17 @@
+ ),z=t(46
+-1
++3
+ ),U=babe
+@@ -521506,20 +521506,20 @@
+ ),W=t(46
+-2
++4
+ ),
+-j
++N
+ =babelHe
+@@ -521553,18 +521553,18 @@
+ (W),
+-N
++X
+ =t(380),
+-J
++Y
+ =bab
+@@ -521600,21 +521600,21 @@
+ ard(
+-N
++X
+ ),
+-X
++J
+ =t(46
+-3
++5
+ ),
+-Y
++j
+ =bab
+@@ -521645,17 +521645,17 @@
+ Default(
+-X
++J
+ ),G=l.Na
+@@ -523246,184 +523246,8 @@
+ his.
+-page_url=%22http://dev-afp.m.chuchujie.com/afp/index.html?jsonData=/act_html/2017-08-23/bdcf9412-3904-3d47-b373-0e0b16962c4f_1297.json&branch=develop&is_rn=1&et=1504108800%22,this.
+ _req
+@@ -523382,16 +523382,102 @@
+ ,n=null;
++if(e&&e.headers)%7Bvar s=e.headers.map,r=s.timestamp;r&&r.length%3E0&&(a.serverTime=r%5B0%5D)%7D
+ 2==e.pag
+@@ -524627,18 +524627,17 @@
+ (%7Btype:1
+-00
++4
+ %7D),this.
+@@ -530780,17 +530780,17 @@
+ Element(
+-A
++C
+ .default
+@@ -531078,17 +531078,17 @@
+ Element(
+-F
++x
+ .default
+@@ -532162,16 +532162,131 @@
+ ws%5Ba%5D=e%7D
++,timestamp:this.serverTime,onLayout:this._onLayout.bind(this,e.type_id,a),onPress:function(e)%7Breturn i._onPress(e)%7D
+ %7D):o.def
+@@ -533227,17 +533227,17 @@
+ Element(
+-j
++N
+ .default
+@@ -533809,17 +533809,17 @@
+ Element(
+-Y
++j
+ .default
+@@ -533829,17 +533829,17 @@
+ iewType:
+-Y
++j
+ .default
+@@ -536620,18 +536620,18 @@
+ urce:t(4
+-7
+ 8
++0
+ ),style:
+@@ -537089,21 +537089,20 @@
+ ement(l.
+-Imag
++Vi
+ e
++w
+ ,%7Bkey:%228
+@@ -537148,69 +537148,14 @@
+ e%7D,s
+-ource:%7Buri:itemData.value.float_img%7D,s
+ tyle:%7B
+-width:e,height:a,
+ posi
+@@ -537191,16 +537191,46 @@
+ Z-$-a)/2
++,backgroundColor:%22transparent%22
+ %7D,onMove
+@@ -537310,32 +537310,227 @@
+ n()%7Breturn!0%7D,on
++MoveShouldSetResponderCapture:function()%7Breturn!0%7D,onStartShouldSetResponderCapture:function()%7Breturn!0%7D,onResponderGrant:function(e)%7Bt.firstX=e.nativeEvent.pageX,t.firstY=e.nativeEvent.pageY%7D,on
+ ResponderMove:fu
+@@ -537531,32 +537531,119 @@
+ ove:function(i)%7B
++(Math.abs(i.nativeEvent.pageX-t.firstX)%3E5%7C%7CMath.abs(i.nativeEvent.pageY-t.firstY)%3E5)&&(
+ t.floatMove=!0,t
+@@ -537766,16 +537766,17 @@
+ eX-e/2%7D%7D
++)
+ )%7D,onRes
+@@ -538009,16 +538009,114 @@
+ ove=!1%7D%7D
++,o.default.createElement(l.Image,%7Bsource:%7Buri:itemData.value.float_img%7D,style:%7Bwidth:e,height:a%7D%7D)
+ )%7D%7D();if
+@@ -540216,33 +540216,33 @@
+ function(i)%7Bvar 
+-s
++d
+ =%22CHUCHUITEM%22,n=
+@@ -540259,33 +540259,33 @@
+ :e.id,static_id:
+-d
++s
+ (t,a),trackId:i%7D
+@@ -540289,33 +540289,33 @@
+ :i%7D,u=%7Btemplate:
+-s
++d
+ ,query:JSON.stri
+@@ -540417,17 +540417,17 @@
+ (i)%7Bvar 
+-s
++d
+ =%22CHUCHU
+@@ -540460,17 +540460,17 @@
+ atic_id:
+-d
++s
+ (t,a),tr
+@@ -540491,17 +540491,17 @@
+ emplate:
+-s
++d
+ ,query:J
+@@ -540880,25 +540880,25 @@
+ ;case 3:var 
+-s
++d
+ =e.id;p.clic
+@@ -540908,17 +540908,17 @@
+ coupon%22,
+-s
++d
+ ,r),y.ge
+@@ -540925,17 +540925,17 @@
+ tCoupon(
+-s
++d
+ );break;
+@@ -541493,18 +541493,18 @@
+ ak;case 
+-99
++14
+ :var O=%7B
+@@ -541518,28 +541518,67 @@
+ e:%22S
+-HOPLOG
++ECK
+ I
+-N
++LL
+ %22,query:
+-%22
++JSON.stringify(
+ %7B
+-%7D
++module:
+ %22
++seckill%22,tab:%22auto%22%7D)
+ %7D;c(
+@@ -541595,17 +541595,16 @@
+ ase 
+-100
++99
+ :var 
+-h
++m
+ =%7Bte
+@@ -541604,38 +541604,40 @@
+ r m=%7Btemplate:%22S
+-ECK
++HOPLOG
+ I
+-LL
++N
+ %22,query:%22%7B%7D%22%7D;c(
+@@ -541636,17 +541636,17 @@
+ %22%7B%7D%22%7D;c(
+-h
++m
+ )%7D%7Dfunct
+@@ -541665,17 +541665,17 @@
+ droid%22==
+-s
++d
+ .Platfor
+@@ -541725,17 +541725,17 @@
+ unction 
+-d
++s
+ (e,r)%7Bva
+@@ -542069,25 +542069,25 @@
+ .push=i;var 
+-s
++d
+ =r(12),n=r(3
+@@ -542233,17 +542233,17 @@
+ rd(l),I=
+-s
++d
+ .NativeM
+@@ -566080,17 +566080,17 @@
+ ug=d=!1,
+-s
++p
+ +n.split
+@@ -566311,17 +566311,17 @@
+ =-1&&(n=
+-s
++p
+ +e%5B1%5D.sp
+@@ -566520,23 +566520,19 @@
+ tion(n)%7B
+-return 
++if(
+ 200==n.s
+@@ -566536,17 +566536,24 @@
+ n.status
+-?
++)%7Bvar e=
+ c(n._bod
+@@ -566560,22 +566560,46 @@
+ yInit,9)
+-:voi
++;return e.headers=n.hea
+ d
+- 
++ers,e%7D
+ t(%22%5Cu8bf
+@@ -567667,17 +567667,17 @@
+ unction 
+-p
++s
+ (n,e)%7Bva
+@@ -568430,17 +568430,17 @@
+ t_jsonp=
+-p
++s
+ ,o.post_
+@@ -568451,17 +568451,17 @@
+ p=f;var 
+-s
++p
+ =%22https:
+@@ -644056,15 +644056,15 @@
+ dth,
+-d
++g
+ =330,
+-p
++d
+ =fun
+@@ -644225,32 +644225,50 @@
+ this,e));return 
++t.sellingPoint=%5B%5D,
+ t.state=%7BimgVisi
+@@ -644902,26 +644902,39 @@
+ function(e,i
++,r
+ )%7B
++var n=this;
+ if(e)return 
+@@ -645008,16 +645008,23 @@
+ Right:20
++,flex:1
+ %7D%7D,o.def
+@@ -645051,33 +645051,33 @@
+ .default,%7Bstyle:
+-g
++p
+ .sale_point_back
+@@ -645211,25 +645211,25 @@
+ (435),style:
+-g
++p
+ .sale_point_
+@@ -645264,31 +645264,75 @@
+ ent(a.Text,%7B
++ref:function(e)%7Breturn n.sellingPoint%5Br%5D=e%7D,
+ style:
+-g
++p
+ .sale_point,
+@@ -645346,16 +645346,192 @@
+ fLines:1
++,onLayout:function(e)%7Bvar t=e.nativeEvent.layout.width,i=Math.min(t,m-g/720*m-70);n.sellingPoint%5Br%5D&&n.sellingPoint%5Br%5D.setNativeProps(%7Bstyle:%7Bwidth:i%7D%7D),n.sellingPoint%5Br%5D=null%7D
+ %7D,e)))%7D%7D
+@@ -645835,17 +645835,17 @@
+ ),style:
+-g
++p
+ .wrap,ac
+@@ -645897,17 +645897,17 @@
+ ,%7Bstyle:
+-g
++p
+ .back%7D,o
+@@ -645992,25 +645992,25 @@
+ ri:i%7D,style:
+-g
++p
+ .productImg,
+@@ -646067,25 +646067,25 @@
+ View,%7Bstyle:
+-g
++p
+ .sale_out_co
+@@ -646154,17 +646154,17 @@
+ %7Bwidth:(
+-d
++g
+ -80)/720
+@@ -646174,17 +646174,17 @@
+ height:(
+-d
++g
+ -80)/720
+@@ -646234,33 +646234,33 @@
+ t(a.View,%7Bstyle:
+-g
++p
+ .shop_info%7D,o.de
+@@ -646293,17 +646293,17 @@
+ ,%7Bstyle:
+-g
++p
+ .shop_in
+@@ -646413,16 +646413,18 @@
+ _point,l
++,0
+ ),this.r
+@@ -646469,16 +646469,18 @@
+ oint_2,l
++,1
+ ),o.defa
+@@ -646512,17 +646512,17 @@
+ %7Bstyle:%5B
+-g
++p
+ .mui_pri
+@@ -646528,17 +646528,17 @@
+ ice_del,
+-g
++p
+ .font_em
+@@ -646637,25 +646637,25 @@
+ View,%7Bstyle:
+-g
++p
+ .price_conta
+@@ -646767,33 +646767,33 @@
+ %22stretch%22,style:
+-g
++p
+ .tag_container,s
+@@ -646846,25 +646846,25 @@
+ Text,%7Bstyle:
+-g
++p
+ .tag_text,nu
+@@ -647075,33 +647075,33 @@
+ .Text,%7Bstyle:l?%5B
+-g
++p
+ .mui_price_integ
+@@ -647103,17 +647103,17 @@
+ integer,
+-g
++p
+ .font_em
+@@ -647117,17 +647117,17 @@
+ _empty%5D:
+-g
++p
+ .mui_pri
+@@ -647179,17 +647179,17 @@
+ tyle:l?%5B
+-g
++p
+ .mui_pri
+@@ -647191,33 +647191,33 @@
+ i_price_integer,
+-g
++p
+ .mui_price_rmb,g
+@@ -647215,17 +647215,17 @@
+ ice_rmb,
+-g
++p
+ .font_em
+@@ -647230,17 +647230,17 @@
+ empty%5D:%5B
+-g
++p
+ .mui_pri
+@@ -647250,17 +647250,17 @@
+ integer,
+-g
++p
+ .mui_pri
+@@ -647333,25 +647333,25 @@
+ View,%7Bstyle:
+-g
++p
+ .button%7D,o.d
+@@ -647386,17 +647386,17 @@
+ %7Bstyle:%5B
+-g
++p
+ .buttonB
+@@ -647485,17 +647485,17 @@
+ 1,style:
+-g
++p
+ .buttonT
+@@ -647500,16 +647500,31 @@
+ nText%7D,n
++.substring(0,4)
+ )))))),t
+@@ -647755,39 +647755,39 @@
+ nent);r.default=
+-p
++d
+ ;var 
+-g
++p
+ =a.StyleSheet.cr
+@@ -647801,33 +647801,33 @@
+ rap:%7BpaddingTop:
+-5
++1
+ ,backgroundColor
+@@ -647937,17 +647937,17 @@
+ :%7Bwidth:
+-d
++g
+ /720*m,h
+@@ -647952,17 +647952,17 @@
+ ,height:
+-d
++g
+ /720*m%7D,
+@@ -648444,23 +648444,8 @@
+ er%22,
+-marginRight:12,
+ just
+@@ -648493,16 +648493,31 @@
+ sparent%22
++,marginRight:14
+ %7D,price_
+@@ -649095,32 +649095,33 @@
+ nLeft:.0
+-2666666666666667
++13333333333333334
+ *m,margi
+@@ -649129,32 +649129,33 @@
+ Right:.0
+-2666666666666667
++13333333333333334
+ *m,fontS
+@@ -649164,16 +649164,25 @@
+ e:.032*m
++,width:50
+ %7D,tag_co
+@@ -698790,19 +698790,19 @@
+ ion(t,e,
+-r,
+ s
++,r
+ )%7BObject
+@@ -698809,33 +698809,33 @@
+ .defineProperty(
+-s
++r
+ ,%22__esModule%22,%7Bv
+@@ -698909,18 +698909,18 @@
+ 12),
+-l
++u
+ =e(458),
+-u
++l
+ =bab
+@@ -698955,18 +698955,18 @@
+ ult(
+-l
++u
+ ),
+-d
++p
+ =e(46
+-0
++2
+ ),c=
+@@ -699000,20 +699000,20 @@
+ Default(
+-d
++p
+ ),
+-p
++d
+ =functio
+@@ -699063,33 +699063,33 @@
+ eck(this,e);var 
+-i
++s
+ =babelHelpers.po
+@@ -699174,25 +699174,125 @@
+ ,t))
++,i=new Date(new Date(1e3*t.timestamp).setHours(0,0,0,0)).getTime()/1e3,r=s.getClearTime(i)
+ ;return 
+-i
++s
+ .state=%7B
++status:-1,
+ prod
+@@ -699316,16 +699316,31 @@
+ ndex:-1,
++firstStatus:-1,
+ zeroTime
+@@ -699344,126 +699344,499 @@
+ ime:
+-n
++i,cl
+ e
+-w D
+ a
+-t
++rTim
+ e
+-((
++:r%7D,s%7Dretur
+ n
+-ew
+  
+-D
++b
+ a
+-t
++b
+ e
+-)
++lHelpers
+ .
++inherit
+ s
++(
+ e
++,
+ t
++),babel
+ H
+-ou
++elpers.c
+ r
++eateClas
+ s(
+-0,0,0
++e
+ ,
+-0)).
++%5B%7Bkey:%22
+ get
++Clear
+ Time
++%22,value:function
+ (
++t
+ )
+-/1
++%7Bvar 
+ e
+-3%7D,
++=this.props.data.product_l
+ i
+-%7D
++st;if(!e)
+ return 
+-b
++null;v
+ a
++r s=O
+ b
++j
+ e
+-lH
++ct.k
+ e
+-lp
++ys(
+ e
++),
+ r
++=t;if(
+ s.
+-i
++le
+ n
++gt
+ h
++%3E0)%7Bvar a=Numb
+ er
++.MAX_VALUE;for(
+ i
++=0;i%3Cs.leng
+ t
++h;i++)%7Bvar n=
+ s
++%5Bi%5D;n-t%3Ca&&n-t%3E=0&&
+ (
++r=n,a=n-t)%7D%7Dr
+ e
++turn r%7D%7D
+ ,
++%7Bkey:%22getProductsSatus%22,value:function(
+ t)
+-,b
++%7Bfor(v
+ a
+-b
++r 
+ e
++=t.product_
+ l
+-H
++ist,s=0,i=0;i%3C
+ e
++.
+ l
+-p
++ength;i++)%7Bvar r=
+ e
++%5Bi%5D;(!
+ r
++.
+ s
++tock%7C%7C0==r
+ .
++sto
+ c
++k%7C%7C
+ r
++.
+ e
+-a
++nd_
+ t
++im
+ e
+-Cl
++%3Cthis.props.timest
+ a
++mp)&&
+ s
++++%7Dreturn 
+ s
+-(
++==e.l
+ e
++ngth%7D%7D
+ ,
+-%5B
+ %7Bkey
+@@ -699909,18 +699909,18 @@
+ var 
+-r
++s
+ =t%5Bi%5D,
+-s=
+ r
++=s
+ .hou
+@@ -699936,109 +699936,171 @@
+ Int(
+-(new Da
+ t
+-e)
++his
+ .
+-ge
++props.
+ t
+-T
+ ime
+-()/1e3
++stamp
+ ),n=
+-thi
+ s.s
++eckill_s
+ ta
++r
+ t
++_tim
+ e
++,o=s
+ .
+-z
++s
+ e
+-roT
++ckill_end_t
+ ime
+-+60*s*6
++,u=
+ 0,
+-o
++l
+ =
+-0;
++this.getPr
+ o
++ductsSatus(s);u
+ =a%3E
+-n+1800
++o%7C%7Cl
+ ?0:a%3C
+-n+1800
++=o
+ &&a%3E
++=
+ n?1:2,
++((
+ 1
+-!
++==u%7C%7C2=
+ =
+-o
++u)
+ &&
+-2!
++this.state.firstIndex
+ =
+-o
++=-1
+ %7C%7Cth
+@@ -700122,14 +700122,30 @@
+ ndex
+-!
++==-1&&i=
+ =
++t.length
+ -1
+-%7C%7C
++)&&
+ (thi
+@@ -700164,16 +700164,41 @@
+ tIndex=i
++,this.state.firstStatus=u
+ ),e.push
+@@ -700208,17 +700208,36 @@
+ our:
+-s
++r
+ ,status:
++u,seckill_end_time:
+ o%7D)%7D
+@@ -700279,39 +700279,41 @@
+ value:function(t
++,e
+ )%7Bvar 
+-e
++s
+ =this.props.data
+@@ -700328,17 +700328,17 @@
+ _list,i=
+-e
++s
+ %5Bthis.st
+@@ -700337,28 +700337,29 @@
+ %5Bthis.state.
+-z
++cl
+ e
++a
+ r
+-o
+ Time%5D;this.s
+@@ -700363,24 +700363,33 @@
+ s.setState(%7B
++status:e,
+ productList:
+@@ -700407,16 +700407,67 @@
+ t_list%7D)
++,this.spikeProduct&&this.spikeProduct.scrollToTop()
+ %7D%7D,%7Bkey:
+@@ -700494,32 +700494,39 @@
+ ion()%7Bvar t=this
++,e=this
+ .props.data.prod
+@@ -700534,25 +700534,25 @@
+ ct_list;if(!
+-t
++e
+ )return null
+@@ -700556,19 +700556,19 @@
+ ull;var 
+-e
++s
+ =
+-t
++e
+ %5Bthis.st
+@@ -700567,28 +700567,29 @@
+ %5Bthis.state.
+-z
++cl
+ e
++a
+ r
+-o
+ Time%5D;if(!e%7C
+@@ -700590,15 +700590,15 @@
+ if(!
+-e
++s
+ %7C%7C0==
+-e
++s
+ .len
+@@ -700636,17 +700636,17 @@
+ ourList(
+-e
++s
+ );return
+@@ -700730,17 +700730,17 @@
+ uctList=
+-e
++s
+ %5Bthis.st
+@@ -700818,16 +700818,45 @@
+ ontainer
++,onLayout:this.props.onLayout
+ %7D,n.defa
+@@ -700865,33 +700865,33 @@
+ t.createElement(
+-u
++l
+ .default,%7Bdata:i
+@@ -700891,16 +700891,47 @@
+ %7Bdata:i,
++timestamp:this.props.timestamp,
+ selected
+@@ -700958,16 +700958,54 @@
+ stIndex,
++selectedStatus:this.state.firstStatus,
+ todaySta
+@@ -701136,16 +701136,178 @@
+ ductList
++,ref:function(e)%7Breturn t.spikeProduct=e%7D,status:this.state.status,timestamp:this.props.timestamp,selectedStatus:this.state.firstStatus,onPress:this.props.onPress
+ %7D))%7D%7D%5D),
+@@ -701314,33 +701314,33 @@
+ e%7D(a.Component);
+-s
++r
+ .default=p;var h
+@@ -701328,25 +701328,25 @@
+ );r.default=
+-p
++d
+ ;var h=o.Sty
+@@ -701400,15 +701400,19 @@
+ or:%22
+-#fdbdd1
++transparent
+ %22,pa
+@@ -701453,39 +701453,39 @@
+ );%0A__d(function(
++t,
+ e,
+-t,
+ n,
+-r
++s
+ )%7BObject.defineP
+@@ -701484,33 +701484,33 @@
+ .defineProperty(
+-r
++s
+ ,%22__esModule%22,%7Bv
+@@ -701527,18 +701527,18 @@
+ var 
+-l
++a
+ =
+-t
++e
+ (160),
+-a
++o
+ =bab
+@@ -701573,29 +701573,29 @@
+ ult(
+-l
++a
+ ),
+-o
++i
+ =
+-t
++e
+ (12),
+-i
++l
+ =
+-t
++e
+ (434),
+-s
++r
+ =bab
+@@ -701630,14 +701630,14 @@
+ ult(
+-i
++l
+ ),c=
+-o
++i
+ .Dim
+@@ -701666,17 +701666,21 @@
+ width,u=
++(
+ c
++-4)
+ /4.5,d=f
+@@ -701679,33 +701679,33 @@
+ /4.5,d=function(
+-e
++t
+ )%7Bfunction n(e)%7B
+@@ -701693,33 +701693,33 @@
+ n(t)%7Bfunction n(
+-e
++t
+ )%7BbabelHelpers.c
+@@ -701736,33 +701736,33 @@
+ eck(this,n);var 
+-t
++e
+ =babelHelpers.po
+@@ -701832,33 +701832,33 @@
+ f(n)).call(this,
+-e
++t
+ ));return t.stat
+@@ -701843,33 +701843,33 @@
+ this,t));return 
+-t
++e
+ .state=%7Bselected
+@@ -701874,17 +701874,17 @@
+ edIndex:
+-e
++t
+ .selecte
+@@ -701889,19 +701889,29 @@
+ tedIndex
++,status:-1
+ %7D,
+-t
++e
+ %7Dreturn 
+@@ -701926,33 +701926,33 @@
+ pers.inherits(n,
+-e
++t
+ ),babelHelpers.c
+@@ -701971,16 +701971,157 @@
+ ,%5B%7Bkey:%22
++componentDidMount%22,value:function()%7Bvar t=this;this.timeout=setTimeout(function()%7Bt.adjustContentOffset(t.state.selectedIndex)%7D,500)%7D%7D,%7Bkey:%22
+ padNumbe
+@@ -702142,32 +702142,32 @@
+ ion(
+-e
++t
+ )%7Bvar 
+-t
++e
+ =%2200%22+
+-e
++t
+ ;return 
+-t
++e
+ .sub
+@@ -702173,17 +702173,17 @@
+ bstring(
+-t
++e
+ .length-
+@@ -702184,17 +702184,17 @@
+ ength-2,
+-t
++e
+ .length)
+@@ -702234,89 +702234,20 @@
+ ion(
+-e
++t
+ )%7Bvar 
+-t=pars
+ e
+-Int((new Date).getTime()/1e3),n
+ =
+-this.props.todayStamp+60*e*6
+ 0,
+-r=0,l
++n
+ =%5B%5D;
+@@ -702257,19 +702257,22 @@
+ urn 
++0==
+ t
+-%3En+1800
++.status
+ ?(
+-r
++e
+ =%22%5Cu
+@@ -702289,17 +702289,17 @@
+ %5Cu675f%22,
+-l
++n
+ =%5B%22#999%22
+@@ -702312,24 +702312,22 @@
+ %22%5D):
+-t%3Cn+
+ 1
+-800&&
++==t.s
+ t
+-%3En
++atus
+ ?(
+-r
++e
+ =%22%5Cu
+@@ -702344,17 +702344,17 @@
+ %5Cu4e2d%22,
+-l
++n
+ =%5B%22#FC65
+@@ -702370,17 +702370,17 @@
+ AB5%22%5D):(
+-r
++e
+ =%22%5Cu5373
+@@ -702399,17 +702399,17 @@
+ %5Cu59cb%22,
+-l
++n
+ =%5B%22#4ECD
+@@ -702434,18 +702434,18 @@
+ ext:
+-r
++e
+ ,colors:
+-l
++n
+ %7D%7D%7D,
+@@ -702470,32 +702470,34 @@
+ ,value:function(
++t,
+ e)%7Bthis.state.se
+@@ -702509,25 +702509,53 @@
+ dIndex!=
+-e
++t
+ &&(this.
++adjustContentOffset(t),this.
+ setState
+@@ -702570,16 +702570,25 @@
+ edIndex:
++t,status:
+ e%7D),this
+@@ -702602,24 +702602,26 @@
+ clickAction(
++t,
+ e))%7D%7D,%7Bkey:%22
+@@ -702612,38 +702612,51 @@
+ n(t,e))%7D%7D,%7Bkey:%22
+-r
++adjustCont
+ en
+-d
++tOffs
+ e
+-r
++t
+ %22,value:function
+@@ -702648,32 +702648,33 @@
+ ,value:function(
++t
+ )%7Bvar e=this;ret
+@@ -702666,27 +702666,211 @@
+ %7Bvar e=t
++*(u+1)+.5*u,n=e-.5*c,s=t
+ his
++.props.data.length*(u+1)
+ ;
++n%3C=0%7C%7Cs%3C=c?n=0:n%3E=s-c&&(n=s-c),this.sc
+ r
++ollVi
+ e
++w&&
+ t
+-u
++his.scrollView.sc
+ r
++ollTo(%7Bx:
+ n
++,y:0,animated:!0%7D)%7D%7D,%7Bkey:%22render%22,value:function()%7Bvar
+  
++t=this;if(
+ 0==this.
+@@ -702886,23 +702886,211 @@
+ a.length
+-?
++)return 
+ null
++;var n=%7B%7D;return n=e(0==this.state.status%7C%7C0==this.props.selectedStatus&&this.state.status==-1?459
+ :
++1==this.st
+ a
++te.status%7C%7C1==this.props.selectedStatus&&this.state.status==-1?460:461),o
+ .default
+@@ -703096,33 +703096,33 @@
+ t.createElement(
+-o
++i
+ .View,%7Bstyle:f.c
+@@ -703123,33 +703123,33 @@
+ le:f.container%7D,
+-a
++o
+ .default.createE
+@@ -703155,17 +703155,17 @@
+ Element(
+-o
++i
+ .ScrollV
+@@ -703179,24 +703179,63 @@
+ rizontal:!0,
++ref:function(e)%7Breturn t.scrollView=e%7D,
+ style:f.cont
+@@ -703312,28 +703312,28 @@
+ unction(
+-t
++e
+ ,n)%7Bvar 
+-r
++s
+ =
+-e
++t
+ .getItem
+@@ -703337,22 +703337,17 @@
+ temData(
+-t.hour
++e
+ );return
+@@ -703339,33 +703339,33 @@
+ mData(e);return 
+-a
++o
+ .default.createE
+@@ -703363,33 +703363,33 @@
+ t.createElement(
+-o
++i
+ .TouchableOpacit
+@@ -703397,25 +703397,41 @@
+ ,%7Bkey:n,
++activeOpacity:1,
+ onPress:
+-e
++t
+ .clickAc
+@@ -703444,15 +703444,24 @@
+ ind(
+-e
++t
+ ,n
++,e.status
+ )%7D,
+-a
++o
+ .def
+@@ -703471,33 +703471,33 @@
+ t.createElement(
+-s
++r
+ .default,%7Bstyle:
+@@ -703520,17 +703520,17 @@
+ ,colors:
+-r
++s
+ .colors,
+@@ -703562,17 +703562,17 @@
+ ,y:.5%7D%7D,
+-a
++o
+ .default
+@@ -703578,33 +703578,33 @@
+ t.createElement(
+-o
++i
+ .Text,%7Bstyle:f.i
+@@ -703618,17 +703618,17 @@
+ le%7D,
+-r
++s
+ .text),
+-a
++o
+ .def
+@@ -703638,33 +703638,33 @@
+ t.createElement(
+-o
++i
+ .Text,%7Bstyle:f.i
+@@ -703680,38 +703680,73 @@
+ %7D,e.
+-pa
++hour)),o.
+ d
+-N
++efa
+ u
++lt.createEle
+ m
+-b
+ e
+-r
++nt
+ (
++i.View,%7Bs
+ t
++yle:f
+ .
+-h
++b
+ o
+-ur)+%22:00%22)
++ttom_line%7D
+ ))%7D),
+-a
++o
+ .def
+@@ -703756,33 +703756,33 @@
+ t.createElement(
+-o
++i
+ .Image,%7Bsource:t
+@@ -703784,14 +703784,9 @@
+ rce:
+-t(459)
++n
+ ,sty
+@@ -703839,16 +703839,20 @@
+ ex*(u+1)
+++u/2
+ %7D%5D%7D)))%7D%7D
+@@ -703857,17 +703857,17 @@
+ %7D%7D%5D),n%7D(
+-l
++a
+ .Compone
+@@ -703862,33 +703862,33 @@
+ n%7D(a.Component);
+-r
++s
+ .default=d;var f
+@@ -703888,17 +703888,17 @@
+ d;var f=
+-o
++i
+ .StyleSh
+@@ -704239,17 +704239,84 @@
+ 5,width:
++5,position:%22absol
+ u
++te%22,top:33%7D,bottom_line:%7BbackgroundColor:%22#40393a%22
+ ,positio
+@@ -704319,32 +704319,49 @@
+ ition:%22absolute%22
++,width:u,height:2
+ ,top:33%7D%7D)%7D,458)
+@@ -704484,18 +704484,17 @@
+ ,width:1
+-62
++0
+ ,height:
+@@ -704494,17 +704494,17 @@
+ height:1
+-0
++1
+ ,scales:
+@@ -704517,57 +704517,508 @@
+ sh:%22
++0bd00f44f22759e0d90210beb00d4
+ c
++54%22,name:%22se
+ c
++kill_gray%22,typ
+ e
++:%22png%22%7D)%7D,4
+ 5
++9);%0A__d(
+ f
+-441
++unction(e,s,t,a)%7Bt.exports=s(255).registerAsset(%7B__packager_
+ a
+-4
++sset:!0,httpServerLo
+ c
++ation:%22/ass
+ e
+-b
++ts/afp/app/img%22,width:1
+ 0
++,height:11,scales:%5B1%5D,hash:%22867d299
+ e42d
+-9
+ b
+-7
++d
+ d
++47
+ c
+-f
++4
+ 9
+-f
++c7144
+ 0
+-4
++5
+ 95
+-9
++78
+ 3
++9
+ %22,name:%22
+-u
++seckill_red%22,type:%22p
+ n
++g%22%7D)%7D,460);%0A__
+ d
++(function(e,s,a,t)%7Ba.exports=s(255).registerAsset(%7B__packag
+ er_
++asset:!0,httpServerLocation:%22/assets/afp/app/img%22,width:10,height:11,sca
+ l
+-i
++es:%5B1%5D,hash:%22346153cbca742650af15e0bc03192103%22,
+ n
++ame:%22seckill_blu
+ e%22,t
+@@ -705023,34 +705023,34 @@
+ ,type:%22png%22%7D)%7D,4
+-59
++61
+ );%0A__d(function(
+@@ -705045,35 +705045,35 @@
+ _d(function(e,t,
+-n
++r
+ ,
+-i
++n
+ )%7BObject.defineP
+@@ -705072,33 +705072,33 @@
+ .defineProperty(
+-i
++n
+ ,%22__esModule%22,%7Bv
+@@ -705107,34 +705107,34 @@
+ ue:!0%7D);var 
+-r
++o
+ =t(160),
+-o
++i
+ =babelHelper
+@@ -705149,33 +705149,33 @@
+ pRequireDefault(
+-r
++o
+ ),l=t(12),a=l.Di
+@@ -705205,16 +705205,22 @@
+ width,s=
++150,u=
+ (a-25)/2
+@@ -705235,33 +705235,33 @@
+ ion(e)%7Bfunction 
+-t
++r
+ ()%7Breturn babelH
+@@ -705279,33 +705279,33 @@
+ sCallCheck(this,
+-t
++r
+ ),babelHelpers.p
+@@ -705327,33 +705327,33 @@
+ torReturn(this,(
+-t
++r
+ .__proto__%7C%7CObje
+@@ -705362,33 +705362,33 @@
+ .getPrototypeOf(
+-t
++r
+ )).apply(this,ar
+@@ -705418,33 +705418,33 @@
+ elpers.inherits(
+-t
++r
+ ,e),babelHelpers
+@@ -705452,39 +705452,143 @@
+ createClass(
+-t
++r
+ ,%5B%7Bkey:%22
++sc
+ r
++ollToTop%22,valu
+ e
++:fu
+ n
++ction()%7Bthis.scrollView&&this.scrollView.scrollTo(%7Bx:0,y:0,animate
+ d
++:!1%7D)%7D%7D,%7Bk
+ e
++y:%22onP
+ r
++ess
+ %22,value:func
+@@ -705588,33 +705588,258 @@
+ ue:function(
++e,t
+ )%7B
++va
+ r
++ r=1,n=
+ e
++.produc
+ t
++_id;e.
+ ur
++l?0==t%7C%7C2==t?(r=%224%22,
+ n
++=e.url):e.ms_url&&(r=%224%22,n=e.ms_url):!e.ms_url%7C%7C2!=t&&1!=t?(r=1,n=e.product_id):(r=%224%22,n=e.ms_url),this.props.onPress(%7Btype:r,id:n%7D)%7D%7D,%7Bkey:%22render%22,value:function()%7Bvar
+  
++e=this;if(!
+ this.props.d
+@@ -705841,20 +705841,20 @@
+ ops.data
+-&&
++%7C%7C
+ 0
+-!
++=
+ =this.pr
+@@ -705868,18 +705868,72 @@
+ a.length
++)return null;var r=this.props.data.length%3E2
+ ?
+-o
++s:u;return i
+ .default
+@@ -705957,25 +705957,25 @@
+ View,%7Bstyle:
+-u
++p
+ .container%7D,
+@@ -705966,33 +705966,33 @@
+ le:p.container%7D,
+-o
++i
+ .default.createE
+@@ -706018,32 +706018,71 @@
+ ,%7Bhorizontal:!0,
++ref:function(t)%7Breturn e.scrollView=t%7D,
+ showsHorizontalS
+@@ -706121,17 +706121,17 @@
+ erStyle:
+-u
++p
+ .content
+@@ -706175,46 +706175,46 @@
+ ion(
+-e
++n
+ ,
+-t
++o
+ )%7Bvar 
+-n
++s
+ =
+-e
++n
+ .width!=
+-e
++n
+ .height?
+-e
++n
+ .width/
+-e
++n
+ .hei
+@@ -706214,33 +706214,443 @@
+ h/n.height:1
++,u=0==e.props.status%7C%7C0==n.stock,c=-1,d=%22red%22,m=%22red%22,f=%22%22,h=0==e.props.status%7C%7Cu%7C%7CparseInt(n.end_time)%3CparseInt(e.props.timestamp)%7C%7Ce.props.status==-1&&0==e.props.selectedStatus
+ ;return 
++h?(d=%22#999%22,m=%22#999%22,f=%22%5Cu5df2%5Cu7ed3%5Cu675f%22,c=0):1==e.pr
+ o
++ps.status%7C%7Ce.props.status==-1&&1==e.props.selectedStatus?(d=%22#EA392A%22,m=%22#EA392A%22,f=%22%5Cu7acb%5Cu5373%5Cu79d2%5Cu6740%22,c=1):(d=%22#EA392A%22,m=%22#00dfbb%22,f=%22%5Cu5373%5Cu5c06%5Cu5f00%5Cu59cb%22,c=2),i
+ .default.cre
+@@ -706666,27 +706666,56 @@
+ t(l.
+-Vi
++Touchabl
+ e
+-w
++Opacity
+ ,%7Bkey:
++o,ac
+ t
++iveOpacity:1
+ ,style:
+-u
++%5Bp
+ .ite
+@@ -706717,35 +706717,76 @@
+ p.item_container
++,%7Bwidth:r
+ %7D
++%5D
+ ,o
++nPress:e.onPress.bind(e,n,c)%7D,i
+ .default.createE
+@@ -706805,33 +706805,33 @@
+ ge,%7Bsource:%7Buri:
+-e
++n
+ .image_urls_head
+@@ -706842,39 +706842,204 @@
+ yle:
+-%5B
++%7Bheight:r/s,width:r%7D%7D,h?i.defa
+ u
++lt
+ .
+-i
++crea
+ te
++Ele
+ m
++ent(l.View,%7Bstyle:p.sale
+ _
++out_conta
+ i
++ner%7D,i.default.createElement(l.I
+ mage,%7B
++source:t(429),style:%7Bwidth:(r-40)/375*a,
+ height:
+-s
++(r-40)/375*a
+ /
+-n
++232*213
+ %7D
+-%5D
+ %7D)
++):null)
+ ,
+-o
++i
+ .def
+@@ -707067,25 +707067,25 @@
+ Text,%7Bstyle:
+-u
++p
+ .item_title,
+@@ -707105,18 +707105,36 @@
+ :1%7D,
+-e
++n
+ .
++product_promotion_
+ title),
+-o
++i
+ .def
+@@ -707162,25 +707162,26 @@
+ Text,%7Bstyle:
+-u
++%5Bp
+ .item_subTit
+@@ -707179,24 +707179,35 @@
+ em_subTitle,
++%7Bcolor:d%7D%5D,
+ numberOfLine
+@@ -707215,26 +707215,42 @@
+ :1%7D,
+-e
++n
+ .
+-sell
++m
+ in
+-g_
+ p
+-o
++r
+ i
+-nt
++ce+%22%5Cu5143%5Cu79d2%5Cu6740%22
+ ),
+-o
++i
+ .def
+@@ -707274,33 +707274,34 @@
+ t(l.View,%7Bstyle:
+-u
++%5Bp
+ .item_button%7D,o.
+@@ -707292,27 +707292,59 @@
+ .item_button
++,%7BbackgroundColor:m,width:r-30%7D%5D
+ %7D,
+-o
++i
+ .default.cre
+@@ -707368,17 +707368,17 @@
+ ,%7Bstyle:
+-u
++p
+ .item_bu
+@@ -707408,54 +707408,25 @@
+ :1%7D,
+-e.product_promotion_title
++f
+ )))%7D)))
+-:null
+ %7D%7D%5D),
+-t
++r
+ %7D(
+-r
++o
+ .Com
+@@ -707425,33 +707425,33 @@
+ r%7D(o.Component);
+-i
++n
+ .default=c;var u
+@@ -707449,17 +707449,17 @@
+ t=c;var 
+-u
++p
+ =l.Style
+@@ -707493,22 +707493,8 @@
+ ex:1
+-,paddingTop:10
+ %7D,co
+@@ -707584,24 +707584,16 @@
+ :%22#fff%22,
+-width:s,
+ marginLe
+@@ -707617,29 +707617,8 @@
+ m:10
+-%7D,item_image:%7Bwidth:s
+ %7D,it
+@@ -707804,19 +707804,8 @@
+ ght:
+-30,width:s-
+ 30,a
+@@ -707920,23 +707920,129 @@
+ ight:10%7D
++,sale_out_container:%7Bflex:1,backgroundColor:%22rgba(0,0,0,0.5)%22,alignItems:%22center%22,justifyContent:%22center%22%7D
+ %7D)%7D,46
+-0
++2
+ );%0A__d(f
+@@ -708564,25 +708564,25 @@
+ efault=i%7D,46
+-1
++3
+ );%0A__d(funct
+@@ -709128,25 +709128,25 @@
+ efault=a%7D,46
+-2
++4
+ );%0A__d(funct
+@@ -709225,17 +709225,17 @@
+ ),u=l(46
+-4
++6
+ ),f=babe
+@@ -709274,17 +709274,17 @@
+ ),i=l(47
+-7
++9
+ ),o=babe
+@@ -709380,25 +709380,25 @@
+ efault=d%7D,46
+-3
++5
+ );%0A__d(funct
+@@ -709518,33 +709518,33 @@
+ ),a=t(12),l=t(46
+-5
++7
+ ),s=babelHelpers
+@@ -709579,18 +709579,18 @@
+ t(46
+-6
++8
+ ),c=t(46
+-7
++9
+ ),_=
+@@ -709636,19 +709636,19 @@
+ =t(4
+-68
++70
+ ),h=t(4
+-69
++71
+ ),f=
+@@ -709691,17 +709691,17 @@
+ ),u=t(47
+-0
++2
+ ),S=babe
+@@ -709740,17 +709740,17 @@
+ ),m=t(47
+-1
++3
+ ),g=babe
+@@ -709789,17 +709789,17 @@
+ ),v=t(47
+-4
++6
+ ),w=babe
+@@ -728250,33 +728250,33 @@
+ age,%7Bsource:t(47
+-5
++7
+ ),style:%7Bwidth:2
+@@ -728493,33 +728493,33 @@
+ age,%7Bsource:t(47
+-6
++8
+ ),style:%7Bwidth:2
+@@ -730200,25 +730200,25 @@
+ ault)(R)%7D,46
+-4
++6
+ );%0A__d(funct
+@@ -732028,25 +732028,25 @@
+ ),t%7D(e)%7D%7D,46
+-5
++7
+ );%0A__d(funct
+@@ -732327,25 +732327,25 @@
+ argin:a%7D%7D,46
+-6
++8
+ );%0A__d(funct
+@@ -732865,25 +732865,25 @@
+ ation:_%7D%7D,46
+-7
++9
+ );%0A__d(funct
+@@ -733045,26 +733045,26 @@
+ utCirc:a%7D%7D,4
+-68
++70
+ );%0A__d(funct
+@@ -733192,17 +733192,17 @@
+ ),i=t(46
+-7
++9
+ ),p=babe
+@@ -734377,18 +734377,18 @@
+ ult=o%7D,4
+-69
++71
+ );%0A__d(f
+@@ -735638,25 +735638,25 @@
+ yout%22,l)%7D,47
+-0
++2
+ );%0A__d(funct
+@@ -735735,17 +735735,17 @@
+ ),u=l(47
+-2
++4
+ ),f=babe
+@@ -735784,17 +735784,17 @@
+ ),i=l(47
+-3
++5
+ ),o=babe
+@@ -735890,25 +735890,25 @@
+ efault=d%7D,47
+-1
++3
+ );%0A__d(funct
+@@ -736921,25 +736921,25 @@
+ View%22,o)%7D,47
+-2
++4
+ );%0A__d(funct
+@@ -737645,25 +737645,25 @@
+ efault=a%7D,47
+-3
++5
+ );%0A__d(funct
+@@ -738563,25 +738563,25 @@
+ efault=l%7D,47
+-4
++6
+ );%0A__d(funct
+@@ -738787,25 +738787,25 @@
+ :%22png%22%7D)%7D,47
+-5
++7
+ );%0A__d(funct
+@@ -739011,25 +739011,25 @@
+ :%22png%22%7D)%7D,47
+-6
++8
+ );%0A__d(funct
+@@ -739157,17 +739157,17 @@
+ ),l=t(46
+-5
++7
+ ),s=babe
+@@ -739210,18 +739210,18 @@
+ t(46
+-6
++8
+ ),d=t(46
+-7
++9
+ ),c=
+@@ -739267,19 +739267,19 @@
+ =t(4
+-68
++70
+ ),p=t(4
+-69
++71
+ ),f=
+@@ -739322,17 +739322,17 @@
+ ),u=t(47
+-1
++3
+ ),S=babe
+@@ -756451,17 +756451,17 @@
+ rce:t(47
+-5
++7
+ ),style:
+@@ -756694,17 +756694,17 @@
+ rce:t(47
+-6
++8
+ ),style:
+@@ -757702,25 +757702,25 @@
+ ault)(g)%7D,47
+-7
++9
+ );%0A__d(funct
+@@ -757923,18 +757923,18 @@
+ ng%22%7D)%7D,4
+-7
+ 8
++0
+ );%0A;requ
